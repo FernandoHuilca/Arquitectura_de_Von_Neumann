@@ -1,0 +1,35 @@
+@startuml
+'https://plantuml.com/class-diagram
+class EntradaSalida {
+    - memoriaPrincipal : MemoriaPrincipal
+    - datoA : int
+    - datoB : int
+    + recibirDatos()
+    + guardarDatoEnMemoria()
+    + imprimirMemoriaPrincipal()
+}
+class MemoriaPrincipal {
+    - datosInstrucciones : int[ ]
+    - inicioDelEspacioParaInstrucciones: int
+    - contadorDeDatos : int
+    - contadorDeInstrucciones : int
+    + sobreEscribirDato(int dato, int direcciónDeMemoria)
+    + agregarDato(int dato, int direcciónDeMemoria)
+}
+class CPU {
+    - memoriaPrincipal : MemoriaPrincipal
+    - alu : ALU
+    - unidadDeControl : UnidadDeControl
+    - PC : int
+    - AC : int
+    - AC2 : int
+    - RI : int
+    + ejecutarInstrucciones()
+    + imprimirRegistros()
+}
+
+
+EntradaSalida --U> MemoriaPrincipal
+CPU --> MemoriaPrincipal
+
+@enduml

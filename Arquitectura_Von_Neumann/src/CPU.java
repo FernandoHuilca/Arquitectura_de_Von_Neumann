@@ -1,17 +1,18 @@
 public class CPU {
 
-    private int A;
-    private int B;
-    private int C;
+    private int PC;
+    private int AC;
+    private int RI;
 
     private UnidadDeControl unidadDeControl;
     private ALU alu;
 
     public CPU () {
-        A = 0;
-        B = 0;
-        C = 0;
+        PC = 0;
+        AC = 0;
+        RI = 0;
         unidadDeControl = new UnidadDeControl();
         alu = new ALU();
     }
+
 }
