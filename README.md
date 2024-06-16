@@ -62,7 +62,19 @@ El modelo de Von Neumann sigue un ciclo básico de operación, conocido como el 
 **Desventajas:**
 - **Cuello de Botella de Von Neumann**: La limitación en la velocidad de transferencia de datos entre la CPU y la memoria puede afectar el rendimiento del sistema.
 - **Vulnerabilidad a Errores**: Dado que las instrucciones se tratan como datos, es posible que los errores en los datos resulten en la ejecución de instrucciones incorrectas.
-  
+
+**Sobre el proyecto en código:**
+El diagrama de clases del código es el siguietne (ejemplo adicional): 
+<table>
+  <tr>
+    <td><img src="https://github.com/FernandoHuilca/Arquitectura_de_Von_Neumann/assets/134117009/89d3e955-9df6-49b1-80a6-e089d0d61023"></td>
+    <td><img src="https://github.com/FernandoHuilca/Arquitectura_de_Von_Neumann/assets/134117009/d947b0eb-36a1-49e5-968a-e9d4cce8fdc5" alt="image2"></td>
+  </tr>
+
+</table>
+
+
+
 ---
 
 _**Ingeniería de Software** | **Escuela Politécnica Nacional** | **Fernando Huilca**_
