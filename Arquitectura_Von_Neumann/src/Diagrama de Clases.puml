@@ -1,0 +1,21 @@
+@startuml
+class CPU {
+}
+class MemoriaPrincipal {
+}
+class BusDelSistema {
+
+}
+class EntradaSalida {
+}
+
+BusDelSistema -u> CPU
+BusDelSistema --> EntradaSalida
+BusDelSistema --> MemoriaPrincipal
+
+EntradaSalida --> BusDelSistema
+CPU --> BusDelSistema
+MemoriaPrincipal --> BusDelSistema
+
+
+@enduml
