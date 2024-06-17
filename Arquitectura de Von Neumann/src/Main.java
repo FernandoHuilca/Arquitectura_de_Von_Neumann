@@ -12,9 +12,5 @@ public class Main {
         cpu.ejecutarInstrucciones(250);
 
 
-
-
-
-
     }
 }

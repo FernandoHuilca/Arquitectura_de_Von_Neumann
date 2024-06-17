@@ -11,6 +11,7 @@ public class CPU {
     private UnidadDeControl unidadDeControl;
     // La unidad aritmética lógica:
     private ALU alu;
+    private ALU2 alu2;
 
 
     // Conexión a memoria simulando el bus del Sistema:
@@ -22,6 +23,7 @@ public class CPU {
         this.memoriaPrincipal = memoriaPrincipal;
         unidadDeControl = new UnidadDeControl();
         alu = new ALU();
+        alu2 = new ALU2();
         PC = 0;
         AC = 0;
         AC2 = 0;
@@ -100,7 +102,8 @@ public class CPU {
     }
 
     private void sumarValorACGuardaEnAC() {
-        AC += memoriaPrincipal.obtenerElemento(unidadDeControl.devolverDirecciónMemoria(RI));
+        //AC += memoriaPrincipal.obtenerElemento(unidadDeControl.devolverDirecciónMemoria(RI));
+        AC = alu.sumar(AC,memoriaPrincipal.obtenerElemento(unidadDeControl.devolverDirecciónMemoria(RI)));
     }
 
     private void asignarValoraAC() {
