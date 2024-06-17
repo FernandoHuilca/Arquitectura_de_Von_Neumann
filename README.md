@@ -2,6 +2,9 @@
 
 Este repositorio contiene un programa que simula el funcionamient del modelo de Von Neumann, una de las bases fundamentales de la arquitectura de las computadoras modernas, así como una explicación del funcionamiento del CPU (Unidad Central de Procesamiento).
 
+![image](https://github.com/FernandoHuilca/Arquitectura_de_Von_Neumann/assets/134117009/9a646692-fa8b-449e-81c4-cd2941c82522)
+
+
 ## Tabla de Contenidos
 
 - [Introducción](#introducción)
