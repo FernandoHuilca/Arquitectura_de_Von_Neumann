@@ -76,6 +76,15 @@ El diagrama de clases del código es el siguietne (ejemplo adicional):
 
 </table>
 
+En la ejecución del código se vé así: 
+<table>
+  <tr>
+    <td><img src="https://github.com/FernandoHuilca/Arquitectura_de_Von_Neumann/assets/134117009/7512d2bf-b816-4539-bed2-2277a240769f"></td>
+    <td><img src="https://github.com/FernandoHuilca/Arquitectura_de_Von_Neumann/assets/134117009/540f7b1b-2d49-4e39-aefb-92c68f664adf" alt="image2"></td>
+  </tr>
+
+</table>
+
 
 
 ---
